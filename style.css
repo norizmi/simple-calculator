@@ -1,0 +1,67 @@
+.kalkulator{
+    width: 300px;
+    background: #2e2e2d;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+#layar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #2e2e2d;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+    background: #2e2e2d;
+}
+
+.container-tombol {
+    display: flex;
+    flex-wrap: wrap;
+    background: #2e2e2d;
+}
+
+.tombol {
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color: white;
+    height: 70px;
+    border: 0px solid #2e2e2d;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    font-weight: solid;
+
+}
+
+.tombol:nth-child(4n+1) {
+    border-left: 0px solid #cecece;
+
+}
+
+.tombol:hover {
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#nol {
+    flex-grow: 1;
+}
+
+.operator {
+    color: lightblue;
+    color: solid;
+}
+
+.operator:hover {
+    background: white;
+    border-radius: 100px;
+
+}
